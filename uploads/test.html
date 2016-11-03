@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>img{ height: 100px; float: left; }</style>
+  
+</head>
+<body>
+  <div id="images">
+sssssssssssssssssss
+</div>
+<script>
+
+
+
+
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable) {
+      return pair[1];
+    }
+  } 
+
+}
+
+ 
+function jsonp() {
+
+var userid=getQueryVariable('a');
+var trainingid=getQueryVariable('b');
+var url="http://davincisurgerycommunity.com/training-service/rest/updatetraining/"+userid+"/"+trainingid+"/1";
+alert("Passed");
+  var head = document.head;
+  var script = document.createElement("script");
+  script.setAttribute("src", url);
+  head.appendChild(script);
+  head.removeChild(script);
+}
+function jsonpCallback(data) {
+  // alert("sdsd");
+    }
+jsonp();
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
