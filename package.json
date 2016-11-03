@@ -9,7 +9,18 @@
   "author": "Fady Makram",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3",
+    "express": "^4.14.0",
     "formidable": "^1.0.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishuB/Test.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "bugs": {
+    "url": "https://github.com/NishuB/Test/issues"
+  },
+  "homepage": "https://github.com/NishuB/Test#readme"
 }
