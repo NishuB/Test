@@ -1,5 +1,5 @@
 {
-  "name": "file-uploader",
+  "name": "file-uploader-test",
   "version": "1.0.0",
   "description": "An AJAX file uploader using JS and NodeJS",
   "main": "app.js",
